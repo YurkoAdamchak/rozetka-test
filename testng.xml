@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="rozetkaSuite" verbose="1">
+	<test name="test1" preserve-order="true">
+		<classes>
+			<class name="com.atqc047.FirstTask" />
+		</classes>
+	</test>
+	<test name="test2" preserve-order="true">
+		<classes>
+			<class name="com.atqc047.SecondTask" />
+		</classes>
+	</test>
+	<test name="test3" preserve-order="true">
+		<classes>
+			<class name="com.atqc047.ThirdTask" />
+		</classes>
+	</test>
+	<test name="test4" preserve-order="true">
+		<classes>
+			<class name="com.atqc047.FourthTask" />
+		</classes>
+	</test>
+	<test name="test5" preserve-order="true">
+		<classes>
+			<class name="com.atqc047.FifthTask" />
+		</classes>
+	</test>
+	<test name="test6" preserve-order="true">
+		<classes>
+			<class name="com.atqc047.SixthTask" />
+		</classes>
+	</test>
+</suite>
